@@ -1,0 +1,40 @@
+include emu8086.inc
+org 100h
+mov ax,@data
+mov ds,ax
+
+print "Enter an alphabet: "
+mov ah,01h
+int 21h
+
+cmp al,'a'
+je vowel
+cmp al,'e'
+je vowel
+cmp al,'i'
+je vowel
+cmp al,'o'
+je vowel
+cmp al,'u'
+je vowel   
+cmp al,'A'
+je vowel
+cmp al,'E'
+je vowel
+cmp al,'I'
+je vowel
+cmp al,'O'
+je vowel
+cmp al,'U'
+je vowel
+
+consonant:  
+printn
+print " Consonant"
+jmp stp  
+vowel:
+printn
+print "Vowel"
+stp:
+Ret
+
