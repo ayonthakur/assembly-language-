@@ -1,0 +1,26 @@
+include emu8086.inc
+org 100h
+.data 
+
+.code 
+mov ax,@data
+mov ds,ax
+
+mov ax,86
+cmp ax,40
+jge pass
+jl  fail
+pass: 
+cmp ax,100
+jg  invalid 
+printn "You pass the exam"
+jmp stp:
+fail: 
+cmp ax,0
+jl  invalid
+printn "You failed"
+jmp stp:
+invalid:
+printn "The input is invalid"
+stp:
+ret
