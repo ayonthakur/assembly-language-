@@ -1,0 +1,23 @@
+    include emu8086.inc       
+org 100h
+.data
+.code
+ main proc 
+    mov ax,@data
+    mov ds,ax
+    
+    mov ax,-5
+    cmp ax,0
+    jl negative   
+    jge positive
+
+    positive:
+    print "positve"
+    jmp stp
+    
+    negative:
+    print "negative"   
+   jmp  stp 
+           
+   stp:
+    Ret
