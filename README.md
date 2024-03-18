@@ -1,1 +1,1 @@
-(![logo](https://github.com/ayon-debanth/Portfolio/blob/main/Black%20Minimal%20Business%20Personal%20Profile%20Linkedin%20Banner%20(1).png))
+(![logo](https://raw.githubusercontent.com/ayonthakur/photo-gallery-/main/Screenshot_76.png))
