@@ -16,3 +16,7 @@
 
 
 ![logo](https://github.com/ayonthakur/Portfolio/blob/main/revese%20string%20.png?raw=true)
+
+
+
+![logo](https://github.com/ayonthakur/Portfolio/blob/main/reverse%20without%20stack%20%20(1).png?raw=true)
